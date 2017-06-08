@@ -44,8 +44,8 @@ uploadArchives {
             pom.project {
                 version '1.0.0-SNAPSHOT'
                 artifactId 'linksdk'
-                groupId 'net.bingosoft.oss.linksdk'
-                packaging 'aar'
+                groupId 'net.bingosoft.oss'
+                packaging 'jar'
                 description 'linksdk'
             }
         }
