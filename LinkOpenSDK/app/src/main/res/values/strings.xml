@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LinkOpenSDK</string>
+
+    <!--V3客户端测试-->
+    <string name="ssoendpoint">http://10.201.78.113:8002</string>
+    <string name="username">058031@bingosoft</string>
+    <string name="password">111111</string>
+    <string name="clientId">link_client</string>
+    <string name="clientSecret">bGlua19jbGllbnRfc2VjcmV0</string>
+    <string name="LinkAPP">com.bingo.sled</string>
+
+</resources>

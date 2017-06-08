@@ -1,0 +1,6 @@
+LinkOpenSDK/*.iml
+LinkOpenSDK/.gradle
+LinkOpenSDK/local.properties
+LinkOpenSDK/.idea
+LinkOpenSDK/build
+LinkOpenSDK/opensdk/build
