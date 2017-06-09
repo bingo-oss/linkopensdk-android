@@ -32,22 +32,4 @@ dependencies {
 }
 
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            snapshotRepository(url: MAVEN_REPO_SNAPSHOT_URL) {
-                authentication(userName:MAVEN_USERNAME, password: MAVEN_PASSWORD)
-            }
-            repository(url: MAVEN_REPO_RELEASE_URL) {
-                authentication(userName:MAVEN_USERNAME, password: MAVEN_PASSWORD)
-            }
-            pom.project {
-                version '1.0.0-SNAPSHOT'
-                artifactId 'linksdk'
-                groupId 'net.bingosoft.oss'
-                packaging 'jar'
-                description 'linksdk'
-            }
-        }
-    }
-}
+apply from: rootProject.file('maven-push.gradle')
